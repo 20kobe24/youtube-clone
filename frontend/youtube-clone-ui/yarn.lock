@@ -1925,6 +1925,13 @@
     "picocolors" "^1.0.0"
     "postcss-value-parser" "^4.2.0"
 
+"aws-cdk@2.38.1":
+  "integrity" "sha512-bIHRCkmbXBmJWw1Gq5UsAUUYKABuE/ah1iAA14hXLS8+9AJlF/Ptn+NsUCt9K5v17cRqtUoeaOAMAPrZs8l+YA=="
+  "resolved" "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/aws-cdk/-/aws-cdk-2.38.1.tgz"
+  "version" "2.38.1"
+  optionalDependencies:
+    "fsevents" "2.3.2"
+
 "babel-loader@8.2.5":
   "integrity" "sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ=="
   "resolved" "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/babel-loader/-/babel-loader-8.2.5.tgz"
@@ -2157,6 +2164,13 @@
   "integrity" "sha512-OY1SBHaodJc4wflDIKnlkdqWzJZd1Ls/2zbVJHBSv3AT7vgOJ58yAhd2CN4d57l2kPJrgMb7P9+N1Mhy4tNSQA=="
   "resolved" "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/caniuse-lite/-/caniuse-lite-1.0.30001369.tgz"
   "version" "1.0.30001369"
+
+"cdk@^2.38.1":
+  "integrity" "sha512-+mcKBLTU/zXD+E4QDS/XLcnZdo8MM8rXJXtgY13MSKtBdAThTLSaawDz0YxZTUvmm0J0Vcb4O/YjZla5IDEpmA=="
+  "resolved" "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/cdk/-/cdk-2.38.1.tgz"
+  "version" "2.38.1"
+  dependencies:
+    "aws-cdk" "2.38.1"
 
 "chalk@^2.0.0":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
